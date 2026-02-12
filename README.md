@@ -49,5 +49,3 @@ a = \frac{I \cdot (z_{\text{obs}} - z_0)}{I \cdot I},
 \qquad
 K = a^{-n}.
 $$
-
-The inversion therefore does search over $K$.
