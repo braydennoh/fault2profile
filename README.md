@@ -42,7 +42,7 @@ $$
 z(s) = z_0 + K^{-1/n} I(s).
 $$
 
-Thus, for any candidate fault geometry:
+Thus, for any fault geometry:
 
 $$
 a = \frac{I \cdot (z_{\text{obs}} - z_0)}{I \cdot I},
@@ -50,10 +50,7 @@ a = \frac{I \cdot (z_{\text{obs}} - z_0)}{I \cdot I},
 K = a^{-n}.
 $$
 
-The inversion therefore does search over $K$.  
-It searches over fault geometry (and optionally $m,n$), computes the implied uplift field, constructs the steady-state stream power profile, and fits $K$ in closed form.
-
-Some form of misfit minimized for an inversion model is:
+The inversion therefore does search over $K$. Some form of misfit minimized for an inversion model is:
 
 $$
 \chi^2 = \sum_i w_i
