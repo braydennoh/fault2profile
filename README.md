@@ -2,7 +2,7 @@
 
 At first order, topography is a product of tectonic uplift and erosion; therefore, there must be some coupling between slip on a fault and river topography. River topography has a signal-to-noise ratio that is orders of magnitude higher than that of fault geometry (and is freely available as DEM, unlike physical sensors such as scattered-wave imaging), so some kind of inversion scheme might help constrain the fault geometry.
 
-Consider the stream powre ewquation:
+Consider the stream power equation:
 
 $$
 \frac{\partial z}{\partial t} = U - K A^m S^n,
