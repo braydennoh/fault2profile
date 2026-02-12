@@ -14,7 +14,7 @@ $$
 U = K A^m S^n.
 $$
 
-$K$ is a parameter whose interpretation depends on assumptions about the relative importance of lithologic variability. However, for large rivers (length scales >100 km), the characteristic wavelength of channel profiles  exceeds lithologic heterogeneity. Empirically, large rivers often exhibit profile geometries that correlate more strongly with tectonic forcing than with mapped lithologic variations (e.g., G. Roberts). While lithologic maps could be used to spatially constrain erodibility, doing so requires strong assumptions about stratigraphic continuity, which will introduce greater prior bias and misplaced confidence than adopting a relatively uninformative prior on $K$.
+$K$ is a parameter whose interpretation depends on assumptions about the relative importance of lithologic variability. However, for large rivers (length scales >100 km), the characteristic wavelength of channel profiles  exceeds lithologic heterogeneity. Empirically, large rivers (>100 km) exhibit profile geometries that correlate strongly with tectonic forcing than with mapped lithologic variations (e.g., G. Roberts). While lithologic maps could be used to spatially constrain erodibility, doing so requires strong assumptions about stratigraphic continuity, which will introduce greater prior bias and misplaced confidence than adopting a relatively uninformative prior on $K$.
 
 Therefore, $K$ is not treated as a primary inversion parameter. Instead, for each candidate uplift field predicted from fault geometry, $K$ is solved analytically. Rearranging the steady-state condition,
 
@@ -50,11 +50,4 @@ a = \frac{I \cdot (z_{\text{obs}} - z_0)}{I \cdot I},
 K = a^{-n}.
 $$
 
-The inversion therefore does search over $K$. Some form of misfit minimized for an inversion model is:
-
-$$
-\chi^2 = \sum_i w_i
-\left( \frac{z_{\text{obs},i} - z_{\text{pred},i}}{\sigma_z} \right)^2,
-$$
-
-where $w_i$ reflects node spacing along the channel.
+The inversion therefore does search over $K$.
